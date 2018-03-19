@@ -2,6 +2,6 @@ import sys
 while True:
 	number = int(input())
 	print(number)
-	sys.stdout.flush()		//Clearing the Output Buffer After Printing Each Line
+	sys.stdout.flush()
 	if number == 42:
 		break
